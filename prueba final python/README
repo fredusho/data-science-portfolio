@@ -1,1 +1,89 @@
+# PRUEBA FINAL — Ventas ClassicModels: Integración, KPIs y Reportes
+
+**Resumen ejecutivo:**  
+Construcción de un pipeline analítico sobre la base **ClassicModels** en **PostgreSQL**, integrando tablas de pedidos, detalle, clientes, productos y empleados para generar un dataset desnormalizado, crear **métricas de negocio** (venta, costo, ganancia), validar integridad referencial en los cruces y producir **reportes ejecutivos** (ventas por línea de producto, clientes únicos, clientes sin compra, **Top 10 clientes** y **Top 10 productos** del **año 2005**). Los reportes se **persisten en PostgreSQL**.
+
+## 🎯 Objetivos
+- Ingerir datos de PostgreSQL y **unificar** las tablas: `orders`, `orderdetails`, `customers`, `products`, `employees`.
+- **Validar integridad referencial** en cada merge (`validate=...`) para evitar duplicidades/errores.
+- **Calcular KPIs** por transacción:
+  - `venta = quantityOrdered * priceEach`
+  - `costo = quantityOrdered * buyPrice`
+  - `ganancia = venta - costo`
+- Responder preguntas de negocio:
+  1) **Ventas por línea de producto** (con fila de totales).  
+  2) **Clientes distintos** que compraron.  
+  3) **Clientes sin compras** (identificación y conteo).  
+  4) **Reportes 2005**: Top 10 **clientes** y Top 10 **productos** (por cantidad y ventas), y **guardar** esos resultados en PostgreSQL.
+
+## 🗂️ Datos y modelo relacional
+Fuente: **PostgreSQL – esquema ClassicModels**  
+Tablas utilizadas:
+- `orders` (incluye `orderDate`, `customerNumber`)
+- `orderdetails` (incluye `orderNumber`, `productCode`, `quantityOrdered`, `priceEach`)
+- `customers` (incluye `customerNumber`)
+- `products` (incluye `productCode`, `productName`, `productLine`, `buyPrice`)
+- `employees` (incluye `employeeNumber`; mapeo vía `salesRepEmployeeNumber`)
+
+> El dataset final integra contexto de **cliente**, **vendedor**, **producto** y **pedido** en un único DataFrame para facilitar análisis.
+
+## 🧩 Metodología (alto nivel)
+1. **Conexión** a PostgreSQL con `SQLAlchemy` y lectura de tablas vía `pd.read_sql`.
+2. **Cruces controlados** con `pd.merge(..., validate=...)`:
+   - `orders ⟶ customers` (`many_to_one`)
+   - `+ orderdetails` (`one_to_many`)
+   - `+ products` (`many_to_one`)
+   - `+ employees` (`many_to_one`, usando `salesRepEmployeeNumber`)
+3. **Feature Engineering**: columnas `venta`, `costo`, `ganancia`.
+4. **Agregaciones**:
+   - `ventas_por_linea = final_df.groupby('productLine')['venta'].sum()`
+   - Distintos clientes con compra.
+   - Clientes **sin** compra (left-join/anti-join lógico).
+5. **Filtro temporal 2005** con helper `filtrar_por_fecha(final_df, 'orderDate', '2005-01-01', '2005-12-31')`.
+6. **Reportes ejecutivos** con helper `generar_reporte_pivot(...)` para resumir:
+   - **Top 10 clientes 2005**
+   - **Top 10 productos 2005**
+7. **Persistencia** a PostgreSQL con helper `guardar_en_postgre(df, nombre_tabla, engine)`.
+
+## 📌 Resultados clave
+- **Ventas por línea de producto**: tabla consolidada con **fila de totales**.
+- **Clientes únicos con compra**: conteo directo desde el dataset integrado.
+- **Clientes sin compra**: identificación y total.
+- **Top 10 (2005)**:
+  - **Clientes** por `quantityOrdered` y `venta`.
+  - **Productos** por `quantityOrdered` y `venta`.
+- Resultados persistidos en PostgreSQL (tablas sugeridas):
+  - `top_10_clientes_2005`
+  - `top_10_productos_2005`
+
+> Nota: Las tablas finales se crean/actualizan en la misma base objetivo definida en el `engine`.
+
+## 🛠️ Stack tecnológico
+- **Python**: `pandas`, `numpy`, `math`
+- **Base de datos**: **PostgreSQL**
+- Conectividad: `sqlalchemy`, `psycopg2`
+- (Helpers) Módulo `funciones` con:
+  - `filtrar_por_fecha(df, col, desde, hasta)`
+  - `generar_reporte_pivot(df, filas, columnas, valores, funcion_agrupadora)`
+  - `guardar_en_postgre(df, nombre_tabla, engine)`
+
+## 📁 Estructura sugerida del proyecto
+.
+├── notebook.ipynb
+├── src/
+│ └── funciones.py # helpers: filtrar_por_fecha, generar_reporte_pivot, guardar_en_postgre
+├── data/
+│ ├── DATA_INSTRUCTIONS.md # cómo descargar datos si aplica
+│ └── (muestras pequeñas .csv si son <50MB)
+├── requirements.txt
+└── README.md
+
+
+## ⚙️ Configuración y ejecución
+
+### 1) Variables de conexión
+En el notebook:
+```python
+db_url = "postgresql://USUARIO:PASS@HOST:PUERTO/NOMBRE_BASE"
+engine = create_engine(db_url)
 
