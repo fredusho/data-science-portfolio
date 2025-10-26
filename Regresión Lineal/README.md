@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/proyecto-8-regresion-lineal/notebook.ipynb)
-
 # Desafío – Regresión Lineal
 
 **Autor:** Freddy González  
