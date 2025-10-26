@@ -109,6 +109,6 @@ Demuestra un manejo sólido de **Pandas**, buenas prácticas de análisis explor
 
 ## ✍️ Autor
 **Freddy González**  
-Data Analyst & Future Data Scientist  
+Data Analyst & Data Scientist  
 [LinkedIn](linkedin.com/in/freddygonzalezsandoval · [GitHub](https://github.com/fredusho/data-science-portfolio)
 
