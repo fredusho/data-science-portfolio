@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/preparacion-de-datos-y-graficos/prep-datos-graficos.ipynb)
+
 
 # Preparación de Datos y Gráficos
 
