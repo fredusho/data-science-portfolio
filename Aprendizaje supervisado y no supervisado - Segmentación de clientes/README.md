@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/Segmentación de clientes/notebook.ipynb)
+
  ## Segmentación de Clientes
 
 **Autor:** Freddy González  
