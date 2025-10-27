@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/inferencias-e-hipotesis/inferencias-hipotesis.ipynb)
+
 # Desafío – Inferencias e Hipótesis
 
 **Autor:** Freddy González  
