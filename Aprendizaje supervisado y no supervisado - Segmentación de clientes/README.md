@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/Aprendizaje%20supervisado%20y%20no%20supervisado%20-%20Segmentaci%C3%B3n%20de%20clientes/Desafio_2_Segmentacion_2.ipynb)
+
 
  ## Segmentación de Clientes
 
