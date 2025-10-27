@@ -2,7 +2,7 @@
 
 📄 [Ver instrucciones del desafío (PDF)](aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/docs/03_d_Desafío_-_Segmentación_de_clientes-2.pdf)
 
-aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/docs/03_d_Desafío_-_Segmentación_de_clientes-2.pdf
+(aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/docs/03_d_Desafío_-_Segmentación_de_clientes-2.pdf)
 
  ## Segmentación de Clientes
 
