@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/estadistica-descriptiva-probabilidades-i/descriptiva-probabilidades-i.ipynb)
 
-📄 [Ver instrucciones del desafío (PDF)]
+📄 [Ver instrucciones del desafío (PDF)](estadistica-descriptiva-probabilidades-i/docs/estadistica-descriptiva-probabilidades-i.pdf)
 
 
 # Desafío – Estadística Descriptiva y Probabilidades (Parte I)
