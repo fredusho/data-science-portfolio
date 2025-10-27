@@ -1,4 +1,5 @@
-# Desafío – Transformación y Manipulación de Datos (Parte II)
+
+# Desafío – Transformación y Manipulación de Datos (Parte II) VENTAS REGIONALES EEUU
 
 **Autor:** Freddy González  
 **Fecha:** Octubre 2025  
