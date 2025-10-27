@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/tvariable-aleatoria-tabaquismo-y-gestacion/tabquismo-gestacion.ipynb)
+
 # Desafío – Variable Aleatoria y Tabaquismo
 
 **Autor:** Freddy González  
