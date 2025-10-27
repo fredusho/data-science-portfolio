@@ -81,22 +81,6 @@ El objetivo principal es poner en práctica técnicas de análisis exploratorio,
 
 ---
 
-## 📁 Estructura sugerida del proyecto
-
-proyecto-1-manipulacion-transformacion/
-├── notebook.ipynb
-├── README.md
-├── data/
-│ ├── officers.pkl
-│ ├── subjects.pkl
-│ ├── incidents.pkl
-│ └── Cleaned_DS_Jobs.csv
-└── src/
-└── funciones.py
-
-
----
-
 ## 💬 Conclusión
 
 El proyecto consolida competencias en:
