@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/ml-segmentacion-clientes/ml-segmentacion-clientes.ipynb)
 
-📄 [Ver instrucciones del desafío (PDF)](https://github.com/fredusho/data-science-portfolio/blob/main/proyecto-segmentacion-clientes/docs/ml-segmentacion-clientes.pdf)
+📄 [Ver instrucciones del desafío (PDF)](https://github.com/fredusho/data-science-portfolio/blob/main/ml-segmentacion-clientes/docs/ml-segmentacion-clientes.pdf)
 
 # Segmentación de Clientes con Machine Learning
 
