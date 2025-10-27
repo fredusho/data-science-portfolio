@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/estadistica-descriptiva-probabilídades-I/Desafio_2_Segmentacion_2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/estadistica-descriptiva-probabilídades-I/Desafio_estadística_descriptiva_Freddy_González.ipynb)
 
 
 # Desafío – Estadística Descriptiva y Probabilidades (Parte I)
