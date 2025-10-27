@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/transformacion-y-manipulacion-de-datos-II/transformacion-manipulacion-datos-ii.ipynb)
 
 # Desafío – Transformación y Manipulación de Datos (Parte II) VENTAS REGIONALES EEUU
 
