@@ -1,6 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/proyecto-churn-prediction/desafio-3-prediccion-churn.ipynb)
-
-📄 [Ver instrucciones del desafío (PDF)](https://github.com/fredusho/data-science-portfolio/blob/main/proyecto-churn-prediction/docs/desafio-3-prediccion-churn.pdf)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/prediccion-churn/prediccion-churn.ipynb)
 
 # Predicción de Fuga de Clientes (Churn Prediction)
 
