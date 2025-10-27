@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/Desafio_2_Segmentacion_2.ipynb)
 
-📄 [Ver instrucciones del desafío (PDF)](https://github.com/fredusho/data-science-portfolio/edit/main/aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/README.md#:~:text=Desafio_2_Segmentacion_2.ipynb)
+📄 [Ver instrucciones del desafío (PDF)]([https://github.com/fredusho/data-science-portfolio/edit/main/aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/README.md#:~:text=Desafio_2_Segmentacion_2.ipynb](https://github.com/fredusho/data-science-portfolio/blob/main/aprendizaje-supervisado-no-supervisado-segmentación-de-clientes/README.md#:~:text=_Segmentación_de_clientes))
 
 
 
