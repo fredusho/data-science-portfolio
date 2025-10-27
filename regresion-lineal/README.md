@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/regresion-lineal/regresion-lineal.ipynb)
 
-# Desafío – Regresión Lineal
+# Desafío – Regresión Lineal- DIMENSIONES FISICAS DE PECES
 
 **Autor:** Freddy González  
 **Fecha:** Octubre 2025  
