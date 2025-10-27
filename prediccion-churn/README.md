@@ -66,7 +66,5 @@ Modelos entrenados con **GridSearchCV** y validación cruzada (5 folds).
   - Aplicar técnicas de **balanceo de clases (SMOTE o undersampling)**.  
   - Evaluar modelos más complejos como **XGBoost** o **LightGBM**.
 
----
 
-## 🗂️ Estructura del proyecto
 
