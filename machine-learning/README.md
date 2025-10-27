@@ -1,6 +1,5 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/proyecto-introduccion-ml/introduccion-machine-learning.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/machine-learning/machine-learning-regresion-lineal.ipynb)
 
-📄 [Ver instrucciones del desafío (PDF)](https://github.com/fredusho/data-science-portfolio/blob/main/proyecto-introduccion-ml/docs/introduccion-machine-learning.pdf)
 
 # Introducción al Machine Learning
 
