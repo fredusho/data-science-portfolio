@@ -1,1 +1,96 @@
+# =========================================
+# 🔧 SISTEMA OPERATIVO (macOS)
+# =========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================================
+# 🧪 ENTORNOS VIRTUALES / PYTHON
+# =========================================
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.Python
+.python-version
+
+# =========================================
+# 🧠 NOTEBOOKS Y GOOGLE COLAB
+# =========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_convert/
+*.ipynb_bak/
+*.ipynb.tmp
+
+# =========================================
+# 🧾 BASES DE DATOS Y ARCHIVOS PESADOS
+# =========================================
+*.db
+*.sqlite
+*.sqlite3
+*.tar
+*.zip
+*.gz
+*.h5
+*.pkl
+*.sav
+*.bak
+
+# =========================================
+# 📊 DATOS Y OUTPUTS
+# =========================================
+data/raw/
+data/tmp/
+data/cache/
+outputs/
+models/
+results/
+# *.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+
+# =========================================
+# 🧰 LOGS Y ARCHIVOS TEMPORALES
+# =========================================
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# =========================================
+# 🧩 CONFIGURACIONES Y OTROS
+# =========================================
+.idea/
+.vscode/
+.settings/
+.cache/
+dist/
+build/
+node_modules/
+
+# =========================================
+# 🪶 GIT Y CONTROL DE VERSIONES
+# =========================================
+.gitignore
+.gitattributes
+*.lock
 
