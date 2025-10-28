@@ -42,3 +42,35 @@ Se definió la variable binaria **`Rating`**:
 ```python
 df['Rating'] = df['Stars'].apply(lambda x: 1 if x >= 3.5 else 0)
 
+1 → Ramen de buena calidad (“Good”)
+0 → Ramen de baja calidad (“Bad”)
+3️⃣ Preprocesamiento
+Variables categóricas codificadas con pd.get_dummies.
+Estandarización mediante StandardScaler.
+División entrenamiento/prueba 80/20.
+🤖 Modelos y resultados
+🔹 Regresión Logística
+
+| Métrica      | Clase 0 (Bad) | Clase 1 (Good) | Global   |
+| ------------ | ------------- | -------------- | -------- |
+| Precisión    | 0.57          | 0.87           | -        |
+| Recall       | 0.69          | 0.80           | -        |
+| F1-Score     | 0.62          | 0.83           | -        |
+| **Accuracy** |               |                | **0.77** |
+
+🔹 Support Vector Machine (SVM)
+
+| Métrica      | Clase 0 (Bad) | Clase 1 (Good) | Global   |
+| ------------ | ------------- | -------------- | -------- |
+| Precisión    | 0.54          | 0.89           | -        |
+| Recall       | 0.74          | 0.76           | -        |
+| F1-Score     | 0.63          | 0.82           | -        |
+| **Accuracy** |               |                | **0.76** |
+| **AUC-ROC**  |               |                | **0.85** |
+
+🎯 Conclusiones
+Ambos modelos presentan un desempeño sólido (76–77% de exactitud).
+SVM logra una mejor discriminación general (AUC = 0.85), mostrando una ligera ventaja en capacidad predictiva.
+Regresión Logística ofrece interpretabilidad y mayor recall para la clase “Good”, ideal si se busca identificar productos de buena calidad con menor riesgo de omisión.
+El proyecto demuestra un flujo de clasificación supervisada completo, desde limpieza hasta evaluación comparativa de modelos.
+
