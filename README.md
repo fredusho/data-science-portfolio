@@ -74,5 +74,6 @@ Mi objetivo profesional es entregar **soluciones basadas en datos** que generen 
 **Freddy González — Data Scientist**  
 📂 GitHub: https://github.com/fredusho/data-science-portfolio  
 💼 LinkedIn: https://linkedin.com/in/freddygonzalezsandoval
+asandoval1378@gmail.com / +56984369380
 
 > Disponible para oportunidades laborales en Data Science, Machine Learning & Analytics.
