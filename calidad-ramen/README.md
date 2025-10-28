@@ -1,5 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/proyecto-clasificacion-ramen/desafio-clasificacion-ramen.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/calidad-ramen/clasificacion-calidad-ramen.ipynb)
 
 # Clasificación de Calidad de Ramen 🍜
 
