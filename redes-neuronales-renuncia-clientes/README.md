@@ -1,4 +1,4 @@
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/redes-neuronales-renuncia-clientes/renuncia-clientes.ipynb)
 
 # Predicción de Renuncia de Clientes — Modelos de Machine Learning para Telecomunicaciones
 
