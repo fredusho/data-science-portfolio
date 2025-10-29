@@ -58,8 +58,6 @@ Mi objetivo profesional es entregar **soluciones basadas en datos** que generen 
 ✅ Capacidad demostrada en **modelos predictivos y entregables ejecutivos**  
 ✅ Profesional **autónomo, ágil y orientado a resultados**
 
-> No vendo humo.  
-> Entrego **impacto**.
 
 ---
 
