@@ -1,6 +1,6 @@
 ![Logo](assets/f1.png)
-https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/F1_data_analysis/F1_data_science.ipynb
 
+https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/F1_data_analysis/F1_data_science.ipynb
 
 # Fórmula 1 1950–2025 – Análisis Exploratorio de Datos (EDA)
 
