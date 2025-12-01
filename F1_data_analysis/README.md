@@ -1,3 +1,6 @@
+![Logo](assets/f1.png)
+
+
 # Fórmula 1 1950–2025 – Análisis Exploratorio de Datos (EDA)
 
 Este proyecto realiza un análisis exploratorio de datos del Campeonato Mundial de Fórmula 1 desde 1950 hasta la temporada 2025, utilizando datos tabulares y visualizaciones interactivas para responder preguntas típicas de negocio y performance deportiva.
