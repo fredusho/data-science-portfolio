@@ -1,6 +1,7 @@
 
 
-Análisis de Ventas Globales de Videojuegos (Kaggle – Video Game Sales)
+#Análisis de Ventas Globales de Videojuegos (Kaggle – Video Game Sales)
+
 Este repositorio contiene un análisis exploratorio de datos (EDA) del dataset “Video Game Sales” de Kaggle.
 El objetivo es entender la evolución del mercado de videojuegos, identificar las plataformas y géneros más importantes y profundizar en el pico histórico de ventas del año 2008.
 🗂 Dataset
