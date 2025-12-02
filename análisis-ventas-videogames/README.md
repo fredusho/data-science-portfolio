@@ -1,5 +1,8 @@
 
 # Análisis de Ventas Globales de Videojuegos (Kaggle – Video Game Sales)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fredusho/data-science-portfolio/blob/main/análisis-ventas-videogames/video_games_sales.ipynb)
+
+
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) del dataset **“Video Game Sales”** de Kaggle.  
 El objetivo es entender la evolución del mercado de videojuegos, identificar las plataformas y géneros más importantes y profundizar en el **pico histórico de ventas del año 2008**.
